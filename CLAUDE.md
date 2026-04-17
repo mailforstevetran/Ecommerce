@@ -2,6 +2,18 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Git Workflow
+
+After every meaningful change, commit and push to GitHub so work is never lost:
+
+```
+git add <files>
+git commit -m "short, descriptive message"
+git push origin main
+```
+
+Write commit messages that describe *what changed and why*, not just "update files". Commit at logical checkpoints — after adding a feature, fixing a bug, or completing a discrete task — rather than batching unrelated changes together.
+
 ## Running the Game
 
 No build tools or dependencies. Open `shooter/index.html` directly in a browser to play.
